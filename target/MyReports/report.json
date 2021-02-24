@@ -1,0 +1,287 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-16T13:11:45.548Z",
+        "line": 32,
+        "name": "Calculate the billing amount",
+        "description": "",
+        "id": "login-credentials-with-scenario-outline;calculate-the-billing-amount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on the billing page",
+            "match": {
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_is_on_the_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Enters Billing Amount \"1500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1500\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Enters Tax Amount \"0.50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0.50\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User gets the Calculated Final Bill Amount \"1500.50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1500.50\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_gets_the_calculated_final_bill_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BillingAmount"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-16T13:11:45.697Z",
+        "line": 33,
+        "name": "Calculate the billing amount",
+        "description": "",
+        "id": "login-credentials-with-scenario-outline;calculate-the-billing-amount;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on the billing page",
+            "match": {
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_is_on_the_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Enters Billing Amount \"1805\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1805\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Enters Tax Amount \"2.89\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2.89\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User gets the Calculated Final Bill Amount \"1807.89\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1807.89\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_gets_the_calculated_final_bill_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BillingAmount"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-16T13:11:45.725Z",
+        "line": 34,
+        "name": "Calculate the billing amount",
+        "description": "",
+        "id": "login-credentials-with-scenario-outline;calculate-the-billing-amount;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on the billing page",
+            "match": {
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_is_on_the_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Enters Billing Amount \"2100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2100\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Enters Tax Amount \"4.23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4.23\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User gets the Calculated Final Bill Amount \"2104.23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2104.23\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.ScenarioOutlineStepDefinitons.user_gets_the_calculated_final_bill_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BillingAmount"
+          }
+        ]
+      }
+    ],
+    "name": "Login credentials with Scenario Outline",
+    "description": "",
+    "id": "login-credentials-with-scenario-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featurefiles/ScenarioOutline.feature",
+    "tags": []
+  }
+]

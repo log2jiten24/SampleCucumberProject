@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.603">
+<testcase classname="Login credentials with Scenario Outline" name="Calculate the billing amount" time="0.109">
+<system-out><![CDATA[Given User is on the billing page...........................................passed
+When User Enters Billing Amount "1500"......................................passed
+When User Enters Tax Amount "0.50"..........................................passed
+And User Clicks on calculate button.........................................passed
+Then User gets the Calculated Final Bill Amount "1500.50"...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login credentials with Scenario Outline" name="Calculate the billing amount 2" time="0.008">
+<system-out><![CDATA[Given User is on the billing page...........................................passed
+When User Enters Billing Amount "1805"......................................passed
+When User Enters Tax Amount "2.89"..........................................passed
+And User Clicks on calculate button.........................................passed
+Then User gets the Calculated Final Bill Amount "1807.89"...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login credentials with Scenario Outline" name="Calculate the billing amount 3" time="0.004">
+<system-out><![CDATA[Given User is on the billing page...........................................passed
+When User Enters Billing Amount "2100"......................................passed
+When User Enters Tax Amount "4.23"..........................................passed
+And User Clicks on calculate button.........................................passed
+Then User gets the Calculated Final Bill Amount "2104.23"...................passed
+]]></system-out>
+</testcase>
+</testsuite>
